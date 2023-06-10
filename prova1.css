@@ -1,0 +1,102 @@
+body {
+    font-family: 'Questrial', sans-serif;
+}
+
+.hero {
+    background-color: aliceblue;
+    background-image:url(./Captura\ de\ pantalla\ 2023-06-07\ 134110.png);
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    text-align: center; 
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: 'Josefin Slab', serif;
+}
+
+#brown {
+    color: #81532f;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #0e1318b3;
+}
+
+.serveis {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:5px
+}
+
+.cell{
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 2rem;
+    color:#0e1318b3;
+}
+
+.text {
+    width: 420px;
+    font-size: 1.5rem;
+    color:#0e1318b3;
+   
+}
+
+.info{
+    margin-top: 70px;
+    background-image: url(./flors.png);
+    background-position: bottom;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    background-size: cover;
+    font-size: 1.5rem;
+    color:#0e1318b3;
+    padding-left: 100px;
+}
+
+@media (max-width:1200px) {
+    .serveis {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ima {
+        width: 30px ;
+    }
+
+  
+
+    .a {
+        order:-6;
+    }
+    .b {
+        order: -4;
+    }
+    .c {
+        order: -2;
+    }
+    .d {
+        order: -5;
+        margin-top: 0px;
+    }
+    .e {
+        order: -3;
+        margin-top: 0px;
+    }
+    .f {
+        order: -1;
+        margin-top: 0px;
+    }
+    
+}
+
+
